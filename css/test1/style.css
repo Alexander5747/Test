@@ -1,0 +1,38 @@
+
+
+.form_wraper{
+    max-width: 500px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 8px solid #be1116;
+    align-items: center;
+    padding: 5%;
+    background: #fff;
+}
+input{
+
+    border: none;
+    margin-bottom: 5%;
+    flex-basis: 35px;
+    width: 300px;
+    outline: none;
+    border-bottom: 2px solid #be1116;
+}
+
+
+#send{
+    align-self: center;
+    color: #fff;
+    width: 309px;
+    border: 2px solid #be1116;
+    background-color: #be1116;
+}
